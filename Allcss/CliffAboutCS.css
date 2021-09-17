@@ -1,5 +1,7 @@
   /*                                                   Background                                            */
-
+*{
+  margin:0;
+}
 .body1 {
     background-image: url('https://www.designyourway.net/blog/wp-content/uploads/2018/02/220401417-ultra-hd-wallpapers-4k1-700x394.jpg');
     background-repeat: no-repeat;
