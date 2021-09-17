@@ -1,0 +1,197 @@
+  /*                                                   Background                                            */
+
+.body1 {
+    background-image: url('https://www.designyourway.net/blog/wp-content/uploads/2018/02/220401417-ultra-hd-wallpapers-4k1-700x394.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+  }
+  /*                                                    The Main Picture                                          */
+
+    #cliif-profile-pic 
+{
+    height: 400px;   
+    width: 400x;
+    border-radius: 50%;
+}
+
+.profilepicdiv{
+  text-align: center;  
+}
+
+
+
+  /*                                                    The nav bar                                             */
+
+
+#Nav-extend-right-and-down{
+  background: linear-gradient(#a770ef, #cf8bf3, #fdb99b); /*color of boxes */
+  padding: 7px 0 35px 0; /* Since IT seems to makes the boxes bigger, I wanted to Bring extend the Boxes Down.  */
+ 
+
+}
+
+#midnav{
+font: bold  Verdana, sans-serif; /*Font */
+margin-right: 175px;
+margin-top: 0;
+font-weight: 700px;
+letter-spacing: 2px;
+height:0;
+color:darkred; /* text color */
+}
+
+
+
+
+.navigation ul {
+  font: bold  Verdana, sans-serif; /*Font */
+  display: flex; /* brings the boxes together */
+  padding: 0; /*Seems to Prevent my Social Media Tab from Going under my Background tab (Maybe not the case since I Change other Things))*/
+  text-transform: uppercase; /*  make text appear in all-uppercase  */
+  margin:0;
+  position:relative;  
+  float: right;
+  white-space: nowrap;
+
+}
+.navigation li {
+  display: inline-block; /* display: inline-block is to display list items horizontally instead of vertically */
+
+}
+.navigation a {
+  background:honeydew;
+ background: linear-gradient(#a770ef, #cf8bf3, #fdb99b); /*color of boxes */
+ padding: 12px; /* makes the boxes bigger */
+ color:darkred; /* text color */
+ border: 1px solid rgba(.5, 0, .5, .5); /*border around the box to look more realistic? */
+
+}
+.navigation a:hover {
+  background:coral; /* color when mouse is hovering */
+  box-shadow: inset .5px .5px 5px .5px rgba(.5, 0, .5, .5) /* adds a extra Shawdow/blackness in the boxes */
+ 
+}
+.navigation li:first-child a {
+  border-radius: 10px 0 0 10px; /* adds a curve on the Start */ 
+}
+.navigation li:last-child a {
+  border-radius: 0 10px 10px 0; /* adds a curve on the End */ 
+}
+  
+  /*                                                    The Text under Main picture                                                 */
+
+.Midtext {
+  background: linear-gradient(#a770ef, #cf8bf3, #fdb99b); /*color of boxes */
+
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 70px;
+  font-size: 25px;
+  margin: 0 50px 25px 50px;
+
+
+}
+
+  /*                                                    The 3 Pics + caption                                                  */
+
+  .container1 {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between
+
+  }
+  
+  .item1 {
+    width: 307px;
+    height: 407px;
+    border: 4px solid #a770ef
+
+
+  }
+
+  .The3Pics{
+    height: 400px;   
+    width: 400x;
+
+  }
+
+
+  .caption{
+  color:white;
+    width: 307px;
+    height: 100px;
+
+    }
+  /*                                                    Irrevelant Footer for practice                                                  */
+
+    .row{
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  
+
+.global{
+padding: 10px;
+color: #f0f9ff;
+margin-top: 30px;
+background-image: url(https://previews.123rf.com/images/timla/timla1606/timla160600111/58703598-purple-blue-orange-and-pink-drawing-and-painting-abstract-background.jpg);
+background-repeat: no-repeat;
+ background-position: center;
+background-size: cover;
+   opacity: 0.9;
+
+    }
+
+.global h6{
+margin-top: 0;
+font-weight: 700;
+font-size: 18px;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-family: Archivo Narrow;
+}
+
+.global ul a{
+  color: whitesmoke;
+  text-decoration: none;
+  transition: 1s; /*Time it takes for the color to show on hover */
+}
+.global ul a:hover{
+  opacity: 0.8;
+  color:darkred;
+}
+
+.global .social{
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 0px;
+  border-top: 1px solid #eee;
+  text-align: center;
+  margin-top: 20px; 
+
+}
+
+.global .social a{
+  font-size: 25px;
+  width: 45px;
+  height: 45px;
+  border: 4px solid black;
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid orangered;
+  box-shadow: 0px 2px 0px 1px rgba(218, 27, 13, 0.747);
+  margin: 12px;
+  color: rgb(255, 255, 255);
+  transition: .4s ease-in-out; 
+}
+.global .social a:hover{
+  box-shadow: 0px 1px 3px 3px rgba(31, 72, 255, 0.9);
+}
+.global .copyright{ 
+  text-align: center;
+  padding-top: 12px;
+  font-weight: 500;
+  font-size: 16px;
+}
